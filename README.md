@@ -1,26 +1,52 @@
-# Seattle_analysis
-## Analysis of Airbnb seattle data 
+# Sparkify_Capstone_project
+Udacity Capstone project
 
-### Table of contents
-1. [Installation](### installation)
-2. [Motivation](### project)
-3. [File descriptions](### file)
-4. [Results](### results)
+## Motivation
+1. Load large dataset into Spark and manipulate them using Spark SQL and Spark Dataframes.
+2. Use the Machine Learning API's within Spark ML to build and tune models.
+3. Integrating the skills I have learned in the Spark course and the Data Scientist Nanodegree program.
 
-### Installation
-The code would require any version of python 3, numpy, pandas and matplotlib and seaborn libraries.
+## Aim of the project
+The project aims to predict the churned users based on activities and attributes data of them. And deploy the solution on a distributed system. Original size of the datasets is 12GB. Due to limited computation power of free version of IBM cloud, a medium sized sub-dataset is utitized.
 
-### Project motivation
-For this project, i was interested in the Seattle Airbnb data for analysing tourist activities in the city, here are the following questions:
-1. Which are the most Popular destinations in Seattle?
-2. Which neighbourhood's would continue to record an increasing number of tourists based on rating scores given by previous visitors?
-3. What are the earnings and reviews by host?
-4. How much should the host set their price of listings?
+## Expected Results
+At the end of this project, a model for churn prediction should have been created and evaluated. The model should have been trained and tested on a subset of the 12GB of data, and the final testing should happen on completely separate validation set. 
 
-### File description
-There exist 2 files in this repository, 
-1. A csv file that contains data containing information of airbnb subscribers in Seattle. 
-2. A Jupyter notebook(.ipynb) that contains the analysis of data.
+## Framework needed to run this jupyter notebook:
+- Pyspark SQL and Pyspark ML and other libraries its building on
+- Matplotlib for visualization 
+- IBM Cloud or other cloud services.
+- Python 3.5
 
-### Results
-The main findings of the code can be found at the blog post available [here](https://medium.com/@sonyand96/a-sneek-peek-into-seattle-airbnb-data-b7ff153da277)
+## Overview of the files
+
+README.md - This readme
+
+[Sparkify.ipnby](https://github.com/deshpande-shruti/Sparkify_Capstone_project) : The notebook used from Udacity Workspace.
+
+## Improvement
+To achieve the optimal user experience, using more capable hardware and moving the text extraction process from the cloud to the device would be essential. This would reduce the processing time and give access to the outputs of all of the modules of the text extraction pipeline, which would, in turn, enable the following features:
+
+- User-guided reading (e.g. read big text first, or read the text the user is pointing at)
+
+- Output filtering (e.g. ignore text smaller than some adjustable threshold)
+
+- Passive text detection (auditory cue on text detection, perhaps with additional information encoded in the tone and volume)
+
+## Summary of Project
+Procedures of analysis:  
+1. data cleaning
+2. data exploration
+3. feature engineering
+4. modelling
+5. deploy on IBM cloud
+
+## Blog post
+[Sparkify blog](https://medium.com/@sonyand96/churn-analysis-on-a-huge-dataset-861a8e7c8c25)
+
+
+## Acknowledgement
+The dataset is kindly provided by Udacity team. And some instructions in the notebook are also well prepared by Udacity team.
+
+## References
+For this project, the course material at Udacity has been used for reference. On top of that, the official pySpark documentation has also been used ( https://spark.apache.org/docs/latest/api/python/index.html )
