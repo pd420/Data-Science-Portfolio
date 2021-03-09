@@ -1,39 +1,26 @@
-# Data-Science-Portfolio
+# Seattle_analysis
+## Analysis of Airbnb seattle data 
 
-1 ) Fraud Detection in Credit Card Transactions using ML Techniques 
-    - In this project we have build different machine learning models and compared them to check which model gives the best resultcto classify or identify fraudulent card 
-    - transactions from a given card transactions data.
-    - 
-    Dataset: https://www.kaggle.com/mlg-ulb/creditcardfraud
-    Problem statement: Credit Card fraud Detection
-    Type of problem: Classification, Supervised
-    Data type: PCA transformed numerical variables
-    Performance Measures: Accuracy, Precision, Recall, Confusion Matrix
-    Feature Importance: Not required
+### Table of contents
+1. [Installation](### installation)
+2. [Motivation](### project)
+3. [File descriptions](### file)
+4. [Results](### results)
 
-    Used the following classification models.
+### Installation
+The code would require any version of python 3, numpy, pandas and matplotlib and seaborn libraries.
 
-    Logistic Regression
-    KNN
-    Decision Tree
-    Random forest
-    XGBoost
+### Project motivation
+For this project, i was interested in the Seattle Airbnb data for analysing tourist activities in the city, here are the following questions:
+1. Which are the most Popular destinations in Seattle?
+2. Which neighbourhood's would continue to record an increasing number of tourists based on rating scores given by previous visitors?
+3. What are the earnings and reviews by host?
+4. How much should the host set their price of listings?
 
-2) Machine Learning using MNIST Dataset
+### File description
+There exist 2 files in this repository, 
+1. A csv file that contains data containing information of airbnb subscribers in Seattle. 
+2. A Jupyter notebook(.ipynb) that contains the analysis of data.
 
-    Dataset: https://www.kaggle.com/c/digit-recognizer/data
-    Problem statement: Handwritten digit recognization (0-9)
-    Type of problem: Classification, Supervised
-    Data type: Images stored in csv file
-    Performance Measures: Accuracy, Precision, Recall, Confusion Matrix
-    Feature Importance: Not required
-    Interpretability: We can provide nearest neighbors of the query image to justify why image is classified as 'this'
-
-        Classification Algorithms used in MNIST dataset:
-
-        K-Nearest Neighbor
-        Logistic Regression (one-vs-rest)
-        SVM Classifier
-        Decision Tree
-        Random Forest
-        XGBoost
+### Results
+The main findings of the code can be found at the blog post available [here](https://medium.com/@sonyand96/a-sneek-peek-into-seattle-airbnb-data-b7ff153da277)
